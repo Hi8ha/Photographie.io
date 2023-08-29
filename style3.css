@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+ display: flex;
+  flex-direction: column; /* Stack the images vertically */
+  justify-content: center; /* Center the items vertically */
+  align-items: center; /* Center the items horizontally */
+  height: 2000px;
+  background-color: #f2f2f2;
+}
+
+.container img {
+  width: 500px; /* Set a fixed width for the images */
+  height: 500px; /* Set a fixed height for the images */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  margin: 20px;
+  box-shadow: align-center;
+  box-shadow: 2px 2px 2px 2px lightgray;
+
+  transition: all 1s;
+}
+h1 {
+  text-align: center;
+  text-shadow: 1px 1px 1px dimgray;
+}
+.container :hover
+{
+  transform: scale(1.1);
+  animation-delay: inherit;
+}
